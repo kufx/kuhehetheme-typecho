@@ -1,9 +1,17 @@
 # Stellar for typecho 
-> typecho移植版Stellar主题
+> **typecho移植版Stellar主题**
+
+> 目前博客该有的功能都有了，基本上可以用了，想试试的网友，👇👇👇
+> 可以直接下载`kuhehetheme`文件夹，直接上传到typecho中，放到主题的位置即可开始使用了
+> 后台部分数据的配置方法，太懒了，暂时还没写，有不清楚的，可以加我QQ：`3380007289` 或者👇👇
+> 预置主题文档（晚些更新）：https://kuhehe.kuhehe.top/19ca7a4ad191800e8187dc86d1689e8e
+> 有问题，可直接点击上面链接，在评论区发表，我会收到通知
+
+> ❤️大佬们有兴趣的话，可以顺手帮忙修一下主题的小bug的哈！欢迎各位大佬批评和pr
 
 ## 简介
 
-这是一款我自己动手移植的一款hexo主题[Stellar](https://xaoxuu.com/wiki/stellar/)
+这是一款我自己动手移植自hexo的一款主题[Stellar](https://xaoxuu.com/wiki/stellar/)
 
 感谢Stellar主题作者XAOXUU大佬！
 
@@ -26,18 +34,12 @@
 > + css、js已放置主题本地，想试试的，可以下载11.8.1的压缩包体验哈！
 > + 目前啥功能都没有！如果有大佬想安装看看，可以👇👇👇
 > + 下载11.8.2即可！
+> + 等等等👇👇👇
 
+## ❤️东西太多，不说了，自己安装主题看吧
 
 ## 欣赏一下吧
 
-我的演示站：https://t.kuhehe.top/
-
-## 后台展示
-
-+ 主题设置项
-![Stellar主题typecho移植版](https://bu.dusays.com/2024/11/08/672d6e14c1e90.jpg)
-
-+ 文章编辑页
-![Stellar主题typecho移植版文章编辑页](https://bu.dusays.com/2024/11/08/672d6ec3f0edd.jpg)
+我的演示站：暂时挂了
 
 ## 没了😐😐😐
