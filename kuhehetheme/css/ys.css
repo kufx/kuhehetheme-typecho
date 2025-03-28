@@ -1,0 +1,75 @@
+li:not([class]) a:not([class]),
+p:not([class]) a:not([class]),
+table a:not([class]) {
+  color: var(--theme-link);
+  background: linear-gradient(0deg, var(--theme-link-opa), var(--theme-link-opa)) no-repeat left 100% / 100% 2.5px;
+}
+
+
+article h2:not([class]) {
+  background: linear-gradient(0, var(--text-meta), var(--text-meta)) no-repeat center bottom / 100% 2px;
+}
+
+
+
+@keyframes heartbeat {
+
+  0% { transform: scale(1); }
+
+  25% { transform: scale(1.25); }
+
+  50% { transform: scale(1); }
+
+  75% { transform: scale(1.25); }
+
+  100% { transform: scale(1); }
+
+}
+
+
+
+.heartbeat {
+
+  display: inline-block;
+
+  animation: heartbeat 1s infinite;
+
+}
+
+
+strong {
+    background: linear-gradient(0, var(--theme-link-opa), var(--theme-link-opa)) no-repeat center bottom / 100% 40%;
+}
+
+
+
+    #searchInput {
+      width: 50%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #808080;
+      border-radius: 25px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: 95% center;
+      transition: border-color 0.3s ease, width 0.3s ease;
+      margin: 0 auto;
+      display: block;
+    }
+
+    #searchInput:focus,
+    #searchInput:active {
+      outline: none;
+      border-color: #007BFF;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+
+    #resultInfo {
+      margin-top: 10px;
+      font-size: 14px;
+      display: none;
+      text-align: center;
+      font-weight: bold;
+    }

@@ -1,0 +1,5 @@
+:not([data-theme=“light”]) {
+    .wl-panel, .wl-editor:focus, .wl-input:focus {
+      background: transparent;
+    }
+}

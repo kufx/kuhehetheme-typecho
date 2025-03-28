@@ -1,0 +1,240 @@
+.spoiler {
+    position: relative; /* 使得伪元素可以定位 */
+    background-color: rgba(200, 200, 200, 0.3); /* 浅灰色半透明背景 */
+    color: rgba(0, 0, 0, 0.5); /* 半透明黑色文字 */
+    user-select: none; /* 禁止选中文字 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    cursor: pointer; /* 鼠标悬停时光标变为手型 */
+    filter: blur(3px); /* 添加模糊效果 */
+    padding: 5px; /* 为文本添加内边距以增强效果 */
+    transition: filter 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+.spoiler:hover {
+    background-color: inherit; /* 悬停时使用父元素的背景色 */
+    color: inherit; /* 悬停时显示原色 */
+    filter: blur(0); /* 悬停消除模糊效果 */
+}
+
+
+
+
+.login_reply2view {
+    background-color: var(--card);
+    padding: 10px;
+    border: 1px solid var(--text-meta);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--text);
+}
+
+.reply2view {
+    background-color: var(--card);
+    padding: 15px;
+    border: 1px solid var(--text-meta);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--text);
+}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+    overflow: visible;
+    height: 5px;
+    border-style: solid 3px;
+    border-color: var(--text);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    background: var(--text);
+}
+
+
+
+td:nth-child(1){
+max-width: 200px;
+overflow-x: auto;
+}
+
+
+td:nth-child(2){
+max-width: 350px;
+overflow-x: auto;
+}
+
+
+
+
+
+.katex{
+  overflow: auto;
+  width: auto;  /* 根据内容自动调整宽度 */
+  height: auto; /* 根据内容自动调整高度 */
+}
+
+
+
+
+
+.wrap {
+width: 100%;
+height: 100%;
+position: absolute;
+top: -8px;
+left: 8px;
+overflow: hidden;
+font-size: 17px;
+font-weight: 400;
+color: #fff;
+opacity: 0.5;
+-webkit-transition: .3s ease all;
+-moz-transition: .3s ease all;
+-ms-transition: .3s ease all;
+-o-transition: .3s ease all;
+transition: .3s ease all;
+}
+.wrap:hover {
+opacity: 0.9;
+}
+.wraps {
+display: inline-block;
+text-align: center;
+width: 200px;
+height: 30px;
+line-height: 27px;
+position: absolute;
+top: 30px;
+right: -50px;
+z-index: 2;
+overflow: hidden;
+transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+border: 1px dashed;
+box-shadow: 0 0 0 1px #000, 0px 21px 5px -18px rgba(0,0,0,0.6);
+background: #048e68;
+}
+
+
+#comments input{
+color: var(--text);
+}
+
+
+
+
+
+
+
+
+
+.joe_post__ad .swiper-container
+{
+height: 170px!important;
+margin-top:0px!important;
+border-radius:10px!important;
+background:var(--card);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.joe_post__ad .swiper-container .icon
+{
+position:absolute;
+z-index:1;
+top:2px!important;
+right:2px!important;
+font-size:12px;
+background:rgba(0,0,0,0.25);
+padding:2px 3px!important;
+border-radius:2px;
+color:#ebebeb;
+pointer-events:none
+}
+
+
+
+.joe_post__ad .swiper-container img
+{
+width:100%!important;
+max-height:100%!important;
+object-fit: cover;
+border-radius: 5px;
+}
+
+
+@media (max-width: 768px) 
+{
+.joe_post__ad .swiper-container
+{
+height: 150px!important;
+}
+
+.joe_post__ad .swiper-container .swiper-wrapper img
+{
+width:100%!important;
+height:100%!important;
+object-fit: cover;
+border-radius: 5px;
+}
+}
+
+
+
+
+#containerr {
+        text-align: center;  /* 居中 */
+    }
+
+    #pageInput {
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        color: var(--text);
+        font-family: inherit;
+        background: var(--card);
+        width: 120px;
+        height: 40px;
+        display: inline-block;
+        box-sizing: border-box;  /* 包含边框和内边距的高度计算 */
+        transition: border 0.3s ease;
+    }
+
+    #pageInput:focus,#pageInput:hover {
+        border: 2px solid var(--text);
+    }
+
+    #gotoBtn {
+        padding: 10px 10px;
+        background-color: #40E0D0;
+        font-weight: bold;
+        font-family: inherit;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        height: 40px;
+        vertical-align: top;
+        box-sizing: border-box;  /* 包含边框和内边距的高度计算 */
+        transition: all 0.3s ease;  /* 添加背景颜色过渡动画 */
+    }
+
+    #gotoBtn:hover {
+        background-color: var(--text-meta);
+        
+        font-size: 130%;
+    }

@@ -1,0 +1,24 @@
+#leftDiv1{
+	width:126px;
+	top:300px;
+	float:right;
+	position:fixed;
+	z-index:10000000;
+	left:5px;
+	_position:absolute;
+	}
+.divclose1,.divclose2{
+	height:18px;	
+	width:126px;
+	overflow:hidden;
+	font-size:10pt;
+ font-weight:bold;
+	background-color:#87CEFA;
+	text-align:center;
+	cursor:pointer;
+}
+
+.divclose2 img,.divclose1 img{
+	cursor:pointer;
+	}
+	
