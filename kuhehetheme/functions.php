@@ -65,7 +65,7 @@ $description = new Typecho_Widget_Helper_Form_Element_Text('description', null, 
             'ShowArchive'        => _t('❌️显示归档，没用'),
             'ShowOther'          => _t('❌️显示其它杂项，没用')
         ],
-        ['ShowRecentPosts', 'ShowRecentComments', 'ShowCategory', 'ShowArchive', 'ShowOther'],
+        ['ShowRecentComments', 'ShowCategory', 'ShowArchive', 'ShowOther'],
         _t('侧边栏显示')
     );
 
