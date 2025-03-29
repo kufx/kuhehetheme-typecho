@@ -79,7 +79,11 @@ if($sticky){
 <?php endif; ?>
 
 <div class="post-list post">
+<?php if ($this->have()): ?>
 <?php $this->need('article.php'); ?>
+<?php else: ?>
+<center><div>🎉 这里还没有内容，快去发布第一篇文章吧！</div></center>
+<?php endif; ?>
 </div>
 
 
